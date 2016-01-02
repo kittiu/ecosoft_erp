@@ -1,0 +1,15 @@
+id,description,type_tax_use,name,amount_type,amount,account_id:id,refund_account_id:id,children_tax_ids:id,tag_ids,chart_template_id:id
+tag_input_vat,Input VAT,purchase,Input VAT,percent,7,11920,11920,,Input VAT,l10n_th_ecosoft
+tag_undue_input_vat,Undue Input VAT,purchase,Undue Input VAT,percent,7,11921,11921,,Undue Input VAT,l10n_th_ecosoft
+tag_output_vat,Output VAT,sale,Output VAT,percent,7,21920,21920,,Output VAT,l10n_th_ecosoft
+tag_undue_output,Undue Output VAT,sale,Undue Output VAT,percent,7,21921,21921,,Undue Output VAT,l10n_th_ecosoft
+tag_cor_wht_1,Corporate WHT 1%,purchase,Corporate WHT 1%,percent,1,21930,21930,,Corporate WHT 1%,l10n_th_ecosoft
+tag_cor_wht_2,Corporate WHT 2%,purchase,Corporate WHT 2%,percent,2,21930,21930,,Corporate WHT 2%,l10n_th_ecosoft
+tag_cor_wht_3,Corporate WHT 3%,purchase,Corporate WHT 3%,percent,3,21930,21930,,Corporate WHT 3%,l10n_th_ecosoft
+tag_cor_wht_5,Corporate WHT 5%,purchase,Corporate WHT 5%,percent,5,21930,21930,,Corporate WHT 5%,l10n_th_ecosoft
+tag_psn_wht_1,Personal WHT 1%,purchase,Personal WHT 1%,percent,1,21930,21930,,Personal WHT 1%,l10n_th_ecosoft
+tag_psn_wht_2,Personal WHT 2%,purchase,Personal WHT 2%,percent,2,21930,21930,,Personal WHT 2%,l10n_th_ecosoft
+tag_psn_wht_3,Personal WHT 3%,purchase,Personal WHT 3%,percent,3,21930,21930,,Personal WHT 3%,l10n_th_ecosoft
+tag_psn_wht_5,Personal WHT 5%,purchase,Personal WHT 5%,percent,5,21930,21930,,Personal WHT 5%,l10n_th_ecosoft
+tag_prepaid_wht_1,Prepaid WHT 1%,sale,Prepaid WHT 1%,percent,1,11930,11930,,Prepaid WHT 1%,l10n_th_ecosoft
+tag_prepaid_wht_3,Prepaid WHT 3%,sale,Prepaid WHT 3%,percent,3,11930,11930,,Prepaid WHT 3%,l10n_th_ecosoft

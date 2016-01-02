@@ -1,0 +1,140 @@
+id,code,name,user_type_id,reconcile,chart_template_id:id
+11110,11110,Petty Cash,Bank and Cash,FALSE,l10n_th_ecosoft
+11120,11120,SCBT C/A#001-008-17807,Bank and Cash,FALSE,l10n_th_ecosoft
+11130,11130,SCBT S/A#001-008-17815,Bank and Cash,FALSE,l10n_th_ecosoft
+11140,11140,Kbank S/A#748-2-64808-2,Bank and Cash,FALSE,l10n_th_ecosoft
+11150,11150,Kbank S/A#616­-2-­09861-­4,Bank and Cash,FALSE,l10n_th_ecosoft
+11199,11199,Bank in Transit,Bank and Cash,FALSE,l10n_th_ecosoft
+11210,11210,Short term Investments,Current Assets,FALSE,l10n_th_ecosoft
+11310,11310,Trade Accounts Receivable - Services,Receivable,TRUE,l10n_th_ecosoft
+11390,11390,Allowance for Doubtful Account,Current Assets,FALSE,l10n_th_ecosoft
+11490,11490,Receivable Others,Current Assets,FALSE,l10n_th_ecosoft
+11910,11910,Advances to Staff,Current Assets,FALSE,l10n_th_ecosoft
+11911,11911,Prepayment,Prepayments,FALSE,l10n_th_ecosoft
+11920,11920,Input Tax,Current Assets,FALSE,l10n_th_ecosoft
+11921,11921,Undue Input tax,Current Assets,FALSE,l10n_th_ecosoft
+11922,11922,A/R Revenue Dept (PP30),Current Assets,FALSE,l10n_th_ecosoft
+11930,11930,Prepaid Withholding tax,Current Assets,FALSE,l10n_th_ecosoft
+11940,11940,Prepaid Corporate Income tax (PND.51),Current Assets,FALSE,l10n_th_ecosoft
+11950,11950,Advance to Supplier,Current Assets,FALSE,l10n_th_ecosoft
+11960,11960,Customer Retention,Non-current Assets,FALSE,l10n_th_ecosoft
+19990,19990,Other Current Assets,Current Assets,FALSE,l10n_th_ecosoft
+12110,12110,Office Equipment,Fixed Assets,FALSE,l10n_th_ecosoft
+12111,12111,Office Equipment Accumulated Depreciation,Fixed Assets,FALSE,l10n_th_ecosoft
+12120,12120,IT Equipment,Fixed Assets,FALSE,l10n_th_ecosoft
+12121,12121,IT Equipment Accumulated Depreciation,Fixed Assets,FALSE,l10n_th_ecosoft
+12180,12180,Other Intangible Assets,Fixed Assets,FALSE,l10n_th_ecosoft
+12181,12181,Accumulated Amortization,Fixed Assets,FALSE,l10n_th_ecosoft
+12210,12210,Long term Investments,Non-current Assets,FALSE,l10n_th_ecosoft
+12310,12310,Loans to Employees,Non-current Assets,FALSE,l10n_th_ecosoft
+12320,12320,Loans to Owners/Shareholders,Non-current Assets,FALSE,l10n_th_ecosoft
+12390,12390,Loans to Others,Non-current Assets,FALSE,l10n_th_ecosoft
+12910,12910,Deposit,Non-current Assets,FALSE,l10n_th_ecosoft
+12990,12990,Other Assets,Non-current Assets,FALSE,l10n_th_ecosoft
+21110,21110,Accounts Payable Trade,Payable,TRUE,l10n_th_ecosoft
+21120,21120,Accounts Payable Services,Payable,TRUE,l10n_th_ecosoft
+21130,21130,Post dated checks,Current Liabilities,FALSE,l10n_th_ecosoft
+21210,21210,Short term loans from Owners/Shareholders,Current Liabilities,FALSE,l10n_th_ecosoft
+21290,21290,Other Short term loans,Current Liabilities,FALSE,l10n_th_ecosoft
+21910,21910,Accrued Expenses,Current Liabilities,FALSE,l10n_th_ecosoft
+21920,21920,Output tax,Current Liabilities,FALSE,l10n_th_ecosoft
+21921,21921,Undue output tax,Current Liabilities,FALSE,l10n_th_ecosoft
+21922,21922,A/P Revenue Dept (PP30),Current Liabilities,FALSE,l10n_th_ecosoft
+21930,21930,Withholding Tax Payable,Current Liabilities,FALSE,l10n_th_ecosoft
+21940,21940,Corporate Income tax payable,Current Liabilities,FALSE,l10n_th_ecosoft
+21950,21950,Advance from Customer,Current Liabilities,FALSE,l10n_th_ecosoft
+21960,21960,Supplier Retention,Non-current Liabilities,FALSE,l10n_th_ecosoft
+21990,21990,Other Current Liabilities,Current Liabilities,FALSE,l10n_th_ecosoft
+22100,22100,Long term Loans,Non-current Liabilities,FALSE,l10n_th_ecosoft
+22110,22110,Long term loans from Owners/Shareholders,Non-current Liabilities,FALSE,l10n_th_ecosoft
+22190,22190,Loans from others,Non-current Liabilities,FALSE,l10n_th_ecosoft
+22290,22290,Other Non Current Liabilities,Non-current Liabilities,FALSE,l10n_th_ecosoft
+31100,31100,Authorised Share Capital,Equity,FALSE,l10n_th_ecosoft
+31200,31200,Issued and paid up share capital,Equity,FALSE,l10n_th_ecosoft
+32100,32100,Premium on Shares,Equity,FALSE,l10n_th_ecosoft
+32200,32200,Other surpluses,Equity,FALSE,l10n_th_ecosoft
+33100,33100,Legal reserve,Equity,FALSE,l10n_th_ecosoft
+33200,33200,Dividends,Equity,FALSE,l10n_th_ecosoft
+33900,33900,Retained Earnings,Equity,FALSE,l10n_th_ecosoft
+33999,33999,Profit/Loss for the year,Current Year Earnings,FALSE,l10n_th_ecosoft
+41100,41100,Trade Revenue,Income,FALSE,l10n_th_ecosoft
+41900,41900,Trade Discounts,Income,FALSE,l10n_th_ecosoft
+42100,42100,Implementation Revenue,Income,FALSE,l10n_th_ecosoft
+42200,42200,Trainings Revenue,Income,FALSE,l10n_th_ecosoft
+42300,42300,Maintenance Revenue,Income,FALSE,l10n_th_ecosoft
+42400,42400,Customisation Revenue,Income,FALSE,l10n_th_ecosoft
+42500,42500,Support service Revenue,Income,FALSE,l10n_th_ecosoft
+42900,42900,Additional Discounts for service,Income,FALSE,l10n_th_ecosoft
+43100,43100,Interest Income,Other Income,FALSE,l10n_th_ecosoft
+43200,43200,Unrealized gain,Other Income,FALSE,l10n_th_ecosoft
+43300,43300,Realized gain,Other Income,FALSE,l10n_th_ecosoft
+43400,43400,Fixed Asset Sale Gain/Loss,Other Income,FALSE,l10n_th_ecosoft
+43900,43900,Other Income,Other Income,FALSE,l10n_th_ecosoft
+51100,51100,Salaries - Project Staff,Direct Costs,FALSE,l10n_th_ecosoft
+51500,51500,Subcontractors payments,Direct Costs,FALSE,l10n_th_ecosoft
+52100,52100,Project Transportation,Direct Costs,FALSE,l10n_th_ecosoft
+52200,52200,Project Trip - Plane/Train/Ship,Direct Costs,FALSE,l10n_th_ecosoft
+52300,52300,Project Trip - Hotel,Direct Costs,FALSE,l10n_th_ecosoft
+52400,52400,Project Trip - Meals,Direct Costs,FALSE,l10n_th_ecosoft
+52900,52900,Other Cost of Service,Direct Costs,FALSE,l10n_th_ecosoft
+61100,61100,Partnership Fee,Expenses,FALSE,l10n_th_ecosoft
+61200,61200,Media Advertising,Expenses,FALSE,l10n_th_ecosoft
+61300,61300,Catalog/Newsletter,Expenses,FALSE,l10n_th_ecosoft
+61400,61400,Events,Expenses,FALSE,l10n_th_ecosoft
+61500,61500,Cloud and Domain service,Expenses,FALSE,l10n_th_ecosoft
+61800,61800,Other Advertising & Promotion,Expenses,FALSE,l10n_th_ecosoft
+61900,61900,Entertainment and Customer gift fees,Expenses,FALSE,l10n_th_ecosoft
+62110,62110,Management Gross Salaries,Expenses,FALSE,l10n_th_ecosoft
+62120,62120,Employee Gross Salaries,Expenses,FALSE,l10n_th_ecosoft
+62130,62130,Bonus,Expenses,FALSE,l10n_th_ecosoft
+62140,62140,Personal Income tax paid by company,Expenses,FALSE,l10n_th_ecosoft
+62150,62150,Social security fund,Expenses,FALSE,l10n_th_ecosoft
+62151,62151,Social compensation fund,Expenses,FALSE,l10n_th_ecosoft
+62160,62160,Health Insurance Premium,Expenses,FALSE,l10n_th_ecosoft
+62170,62170,Other Benefit Expense,Expenses,FALSE,l10n_th_ecosoft
+62210,62210,Rent Expense,Expenses,FALSE,l10n_th_ecosoft
+62220,62220,Office Space service and Utilities,Expenses,FALSE,l10n_th_ecosoft
+62230,62230,Meeting Room Service,Expenses,FALSE,l10n_th_ecosoft
+62290,62290,Other Occupancy Costs,Expenses,FALSE,l10n_th_ecosoft
+62310,62310,Telephone,Expenses,FALSE,l10n_th_ecosoft
+62320,62320,Mobile Telephone,Expenses,FALSE,l10n_th_ecosoft
+62330,62330,Network Charges,Expenses,FALSE,l10n_th_ecosoft
+62340,62340,Postage Expense,Expenses,FALSE,l10n_th_ecosoft
+62410,62410,Legal Fees,Expenses,FALSE,l10n_th_ecosoft
+62420,62420,Accounting Fees,Expenses,FALSE,l10n_th_ecosoft
+62430,62430,Audit fees,Expenses,FALSE,l10n_th_ecosoft
+62490,62490,Other Consulting Fees,Expenses,FALSE,l10n_th_ecosoft
+62510,62510,Business Travel - Plane/Train/Ship,Expenses,FALSE,l10n_th_ecosoft
+62520,62520,Business Travel - Meeting pax,Expenses,FALSE,l10n_th_ecosoft
+62530,62530,Business Travel - Hotel,Expenses,FALSE,l10n_th_ecosoft
+62540,62540,Business Travel - Meals,Expenses,FALSE,l10n_th_ecosoft
+62610,62610,Stationary & Supplies - Office Use,Expenses,FALSE,l10n_th_ecosoft
+62620,62620,Admin Transportation - Taxi/Messenger/etc.,Expenses,FALSE,l10n_th_ecosoft
+62630,62630,Association Membership Fees,Expenses,FALSE,l10n_th_ecosoft
+62640,62640,Subscription Fees,Expenses,FALSE,l10n_th_ecosoft
+62650,62650,Repairs & Maintenance,Expenses,FALSE,l10n_th_ecosoft
+62660,62660,Staff Meeting,Expenses,FALSE,l10n_th_ecosoft
+62670,62670,Staff retreat,Expenses,FALSE,l10n_th_ecosoft
+62710,62710,Education Course Fees,Expenses,FALSE,l10n_th_ecosoft
+62720,62720,Education Course Fees (claim 200%),Expenses,FALSE,l10n_th_ecosoft
+62730,62730,Education Travel,Expenses,FALSE,l10n_th_ecosoft
+62740,62740,Education Meals (50%),Expenses,FALSE,l10n_th_ecosoft
+62790,62790,Education Other - Book/Edu material/etc.,Expenses,FALSE,l10n_th_ecosoft
+62810,62810,Pre-operating expense,Expenses,FALSE,l10n_th_ecosoft
+62820,62820,Bad Debts Write-off,Expenses,FALSE,l10n_th_ecosoft
+62830,62830,Fine and Penalties,Expenses,FALSE,l10n_th_ecosoft
+62840,62840,Donation,Expenses,FALSE,l10n_th_ecosoft
+62851,62851,Unrealized loss,Expenses,FALSE,l10n_th_ecosoft
+62852,62852,Realized loss,Expenses,FALSE,l10n_th_ecosoft
+62890,62890,Miscellaneous Expense,Expenses,FALSE,l10n_th_ecosoft
+62910,62910,Office Equipment Depreciation,Depreciation,FALSE,l10n_th_ecosoft
+62920,62920,IT Equipment Depreciation,Depreciation,FALSE,l10n_th_ecosoft
+62980,62980,Amortization,Depreciation,FALSE,l10n_th_ecosoft
+71000,71000,Bank Service Charges,Expenses,FALSE,l10n_th_ecosoft
+72000,72000,Other Service Charges,Expenses,FALSE,l10n_th_ecosoft
+73000,73000,Interest Expense,Expenses,FALSE,l10n_th_ecosoft
+74000,74000,Additional Discount for Purchase,Expenses,FALSE,l10n_th_ecosoft
+81000,81000,Unclaimed VAT,Expenses,FALSE,l10n_th_ecosoft
+82000,82000,Unclaimed Expense,Expenses,FALSE,l10n_th_ecosoft
+83000,83000,Unclaimed Penalties and Surcharges,Expenses,FALSE,l10n_th_ecosoft
+84000,84000,Corporate Income Tax,Expenses,FALSE,l10n_th_ecosoft

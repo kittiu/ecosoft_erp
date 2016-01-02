@@ -1,0 +1,2 @@
+id,name,property_account_receivable_id:id,property_account_payable_id:id,property_account_expense_categ_id:id,property_account_income_categ_id:id,income_currency_exchange_account_id:id,expense_currency_exchange_account_id:id,use_anglo_saxon,cash_account_code_prefix,bank_account_code_prefix
+l10n_th_ecosoft,Thailand - Chart of Account (Ecosoft),11310,21120,51100,42100,43300,62852,FALSE,1111,111

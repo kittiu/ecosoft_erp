@@ -1,0 +1,15 @@
+id,name,applicability
+input_vat,Input VAT,taxes
+undue_input_vat,Undue Input VAT,taxes
+output_vat,Output VAT,taxes
+undue_output_vat,Undue Output VAT,taxes
+corporate_wht_1,Corporate WHT 1%,taxes
+corporate_wht_2,Corporate WHT 2%,taxes
+corporate_wht_3,Corporate WHT 3%,taxes
+corporate_wht_5,Corporate WHT 5%,taxes
+personal_wht_1,Personal WHT 1%,taxes
+personal_wht_2,Personal WHT 2%,taxes
+personal_wht_3,Personal WHT 3%,taxes
+personal_wht_5,Personal WHT 5%,taxes
+prepaid_wht_1,Prepaid WHT 1%,taxes
+prepaid_wht_3,Prepaid WHT 3%,taxes
