@@ -56,7 +56,6 @@ id,code,name,user_type_id,reconcile,chart_template_id:id
 33100,33100,Legal reserve,Equity,FALSE,l10n_th_ecosoft
 33200,33200,Dividends,Equity,FALSE,l10n_th_ecosoft
 33900,33900,Retained Earnings,Equity,FALSE,l10n_th_ecosoft
-33999,33999,Profit/Loss for the year,Current Year Earnings,FALSE,l10n_th_ecosoft
 41100,41100,Trade Revenue,Income,FALSE,l10n_th_ecosoft
 41900,41900,Trade Discounts,Income,FALSE,l10n_th_ecosoft
 42100,42100,Implementation Revenue,Income,FALSE,l10n_th_ecosoft
