@@ -34,11 +34,13 @@
 		</record>
 		<record id="l10n_th_ecosoft" model="account.chart.template">
 		    <field name="name">Thailand - Chart of Account (Ecosoft)</field>
+            <field name="code_digits">5</field>
 		    <field name="currency_id" ref="base.THB"/>
 		    <field name="transfer_account_id" ref="transfer_account"/>
 		</record>
 		<record id="transfer_account" model="account.account.template">
 		    <field name="chart_template_id" ref="l10n_th_ecosoft"/>
 		</record>
+		
 	</data>
 </openerp>
