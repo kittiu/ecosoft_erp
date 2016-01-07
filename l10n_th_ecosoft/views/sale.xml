@@ -7,7 +7,7 @@
 			<field name="inherit_id" ref="sale.view_order_form"/>
 			<field name="arch" type="xml">
 			    <xpath expr="/form/sheet/group//field[@name='date_order']" position="attributes">
-			    	<attribute name="invisible">True</attribute>
+			    	<attribute name="invisible">False</attribute>
 			    </xpath>
 			</field>
 		</record>

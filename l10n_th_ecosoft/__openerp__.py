@@ -11,9 +11,10 @@
     """,
     'author': 'Kitti U. (Ecosoft)',
     'website': 'http://ecosoft.co.th',
-    'depends': ['base', 'account'],
+    'depends': ['base', 'account', 'sale'],
     'data': [
-        'views/partner_view.xml',
+        'views/partner.xml',
+        'views/sale.xml',
         'data/account_chart_template.xml',
         'data/account.account.template.csv',
         'data/account.chart.template.csv',
