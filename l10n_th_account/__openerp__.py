@@ -16,7 +16,10 @@ Accounting extension that supports,
     'author': "Kitti U.",
     'website': 'http://ecosoft.co.th/',
     'depends': ['account'],
-    'data': ['views/account_view.xml', ],
+    'data': [
+        'views/account_view.xml',
+        'views/account_payment_view.xml',
+        ],
     'demo': [],
     'test': [],
- }
+}

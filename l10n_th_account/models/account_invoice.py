@@ -42,12 +42,8 @@ class AccountInvoice(models.Model):
 #         AccountTax = self.env['account.tax']
 #         for tax_id in tax_grouped:
 #             tax = AccountTax.browse(tax_id)
-#             if tax.undue_tax:
-#                 undue_account_id = tax.undue_account_id.id
-#                 undue_refund_account_id = tax.undue_refund_account_id.id
-#                 account_id = self.type in ('out_invoice', 'in_invoice') and \
-#                     undue_account_id or undue_refund_account_id
-#                 tax_grouped[tax_id]['account_id'] = account_id
+#             if tax.wht_tax:
+#                 del tax_grouped[tax_id]
 #         return tax_grouped
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
