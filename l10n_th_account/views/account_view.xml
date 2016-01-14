@@ -25,6 +25,7 @@
 		    <field name="arch" type="xml">
 		        <field name="name" position="after">
 		            <field name="undue_tax"/>
+		            <field name="wht_tax"/>
 		        </field>
 		    </field>
 		</record>    

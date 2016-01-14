@@ -11,7 +11,7 @@
 	                <label for="amount_wht"/>
 	                <div name="amount_wht_div" class="o_row">
 	                    <field name="amount_wht"/>
-	                    <field name="wht_account_id"/>
+	                    <field name="wht_account_id" invisible="1"/>
 						<field name="wht_percent" invisible="1"/>	                    
 	                    <field name="currency_id" options="{'no_create': True, 'no_open': True}" groups="base.group_multi_currency"/>
 	                </div>
