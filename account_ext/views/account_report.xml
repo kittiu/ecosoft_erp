@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- QWeb Reports -->
+        <report 
+            id="account_payments"
+            model="account.payment"
+            string="Payments"
+            report_type="qweb-pdf"
+            name="account_ext.report_payment"
+            file="account_ext.report_payment"
+            attachment_use="True"
+            attachment="" 
+        />
+
+        <report 
+            id="account_payment_action_report_duplicate"
+            model="account.payment"
+            string="Duplicates"
+            report_type="qweb-pdf"
+            name="account_ext.account_payment_report_duplicate_main"
+            file="account_ext.report_payment_duplicate"
+            attachment_use="False"
+        />
+        
+    </data>
+</openerp>

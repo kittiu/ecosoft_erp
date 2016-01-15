@@ -15,7 +15,9 @@ Modification
     'website': 'http://ecosoft.co.th',
     'depends': ['account'],
     'data': [
+        'views/account_report.xml',
         'views/report_invoice.xml',
+        'views/report_payment.xml',
     ],
     'installable': True,
     'auto_install': False,
