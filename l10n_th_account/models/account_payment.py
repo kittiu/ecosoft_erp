@@ -1,15 +1,18 @@
 # -*- coding: utf-8 -*-
 
-from openerp import models, fields, api
+from openerp import models, fields, api, _
 
 
 class AccountPayment(models.Model):
     _inherit = 'account.payment'
 
+    payment_difference = fields.Monetary(
+        store=True,
+    )
     amount_wht = fields.Monetary(
         string='Withhold Amount',
         store=True,
-        copy=False
+        copy=False,
     )
     wht_account_id = fields.Many2one(
         'account.account',
@@ -160,15 +163,16 @@ class AccountPayment(models.Model):
         """ Adding Undue Tax and Tax line form invoice
             TODO: Not applicable for multi-currency
         """
-        move = super(AccountPayment, self)._create_payment_entry(amount)
-        # UNDUE VAT
-        self._create_undue_vat_move_line(move)
         # WITHHOLDING TAX
         if self.amount_wht:
             if self.payment_type == 'inbound':
                 self._create_payment_entry_wht(-self.amount_wht)
             else:
                 self._create_payment_entry_wht(self.amount_wht)
+
+        move = super(AccountPayment, self)._create_payment_entry(amount)
+        # UNDUE VAT
+        self._create_undue_vat_move_line(move)
         return move
 
     @api.model
@@ -189,7 +193,8 @@ class AccountPayment(models.Model):
             self._get_counterpart_move_line_vals(self.invoice_ids))
         currency_id = self.currency_id != self.company_id.currency_id and \
             self.currency_id.id or False
-        wht_aml_dict.update({'currency_id': currency_id})
+        wht_aml_dict.update({'currency_id': currency_id,
+                             'name': _('Withholding Tax')})
         wht_aml = aml_obj.create(wht_aml_dict)
 
         # Reconcile with the invoices
@@ -201,7 +206,8 @@ class AccountPayment(models.Model):
             move.id, False)
         liquidity_aml_dict.update(
             self._get_liquidity_move_line_vals(-amount_wht))
-        liquidity_aml_dict.update({'account_id': self.wht_account_id.id})
+        liquidity_aml_dict.update({'account_id': self.wht_account_id.id,
+                                   'name': _('Withholding Tax')})
         aml_obj.create(liquidity_aml_dict)
 
         move.post()

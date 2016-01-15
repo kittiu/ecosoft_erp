@@ -35,15 +35,15 @@ class AccountInvoice(models.Model):
     # Action methods
 
     # Business methods
-
-#     @api.multi
-#     def get_taxes_values(self):
-#         tax_grouped = super(AccountInvoice, self).get_taxes_values()
-#         AccountTax = self.env['account.tax']
-#         for tax_id in tax_grouped:
-#             tax = AccountTax.browse(tax_id)
-#             if tax.wht_tax:
-#                 del tax_grouped[tax_id]
-#         return tax_grouped
+    @api.multi
+    def register_payment(self, payment_line, writeoff_acc_id=False, writeoff_journal_id=False):
+        """ Overwrite """
+        line_to_reconcile = self.env['account.move.line']
+        for inv in self:
+            line_to_reconcile += inv.move_id.line_ids.filtered(lambda r: not r.reconciled and r.account_id.internal_type in ('payable', 'receivable'))
+        # Intercept here, and pass to account_move_line._create_write_off()
+        line_to_reconcile.write({'payment_id': payment_line.payment_id.id})
+        # --
+        return (line_to_reconcile + payment_line).reconcile(writeoff_acc_id, writeoff_journal_id)
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
