@@ -13,6 +13,7 @@ class AccountMoveLine(models.Model):
 
     def _create_writeoff(self, vals):
         # Fixed to make sure writeoff entries also have payment_id
+        print self
         vals.update({'payment_id': self.payment_id.id})
         return super(AccountMoveLine, self)._create_writeoff(vals)
 

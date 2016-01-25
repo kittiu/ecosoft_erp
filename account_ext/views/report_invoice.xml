@@ -123,7 +123,64 @@
                 <strong>Fiscal Position Remark:</strong>
                 <span t-field="o.fiscal_position_id.note"/>
             </p>
-        </div>
+            
+
+	        <div class="row">
+	            <div class="col-xs-12 small" >
+	                <div style="border-bottom: 1px solid black;" />
+	            </div>
+	            <div class="col-xs-12 mt32" >
+	            	<u>Payment Method</u>
+	            </div>
+
+	            <div class="col-xs-12 small" name="payment_method">
+	                <div style="border-bottom: 1px solid black;">
+	            	<p>
+						1) โอนเงินเข้าบัญชี/Transfer to "ecosoft co., ltd."
+	            		<br/>
+						Account number: 001 008 17815 Standard Charted Bank (Thai) PCL, Head Office (Sathorn), SWIFT code: SCBLTHBXXXX
+						or Kasikorn Bank, Sathorn Square. Account number 616 2 09861 4
+						<br/>
+	            		2) จ่ายเช็คขีดคร่อม/Account Payee cheque to "ecosoft co., ltd."	  
+	            	</p>
+	                </div>
+	            </div>          
+	        </div>
+	        <br/>
+            <div>
+                <div class="col-xs-4 pull-left">
+                    <table class="table table-condensed">
+                        
+                    	<center><span t-field="o.user_id.name"/></center>
+                    	
+                        <tr class="border-black text-center">
+                            <td><strong>Preparer</strong></td>
+                        </tr>
+                        <tr class="text-center">
+                            <td><span t-field="o.date_invoice"/></td>
+                        </tr>
+                        <tr class="border-black text-center">
+                            <td><strong>Date</strong></td>
+                        </tr>
+            		</table>
+            	</div>
+                <div class="col-xs-4 pull-right">
+                    <table class="table table-condensed">
+                    	<br/>
+                        <tr class="border-black text-center">
+                            <td><strong>Receiver</strong></td>
+                        </tr>
+                        <tr class="text-center">
+                            <td><br/></td>
+                        </tr>
+                        <tr class="border-black text-center">
+                            <td><strong>Date</strong></td>
+                        </tr>
+            		</table>
+            	</div>
+            </div>
+        </div>     
+        
     </t>
 </template>
 
